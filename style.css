@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.fond {
+    background-color:white; 
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-chien {
+    width: 80%;
+    max-width: 900px;
+    border-radius: 20px;
+}
+
+.titre {
+    font-size: 24px;
+    margin-top: 30px;
+    color: #444;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo-img {
+    width: 60px;
+    height: 60px;
+}
+
+.logo p {
+    margin-top: 8px;
+    font-size: 16px;
+    color: hotpink;
+    font-weight: bold;
+}
